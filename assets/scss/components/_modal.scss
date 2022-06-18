@@ -24,7 +24,7 @@
         transition: all .3s ;
 
         
-        @include respond(tab-port) {
+        @include respond(tab-land) {
             width: 70% ;
             height: auto ; 
             
