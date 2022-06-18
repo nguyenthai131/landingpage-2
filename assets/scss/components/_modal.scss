@@ -27,7 +27,7 @@
         @include respond(tab-land) {
             width: 70% ;
             height: auto ; 
-            
+            padding: 5rem 2rem  ;
         }
         @include respond(phone) {
             width: 90% ;
