@@ -22,17 +22,19 @@
         padding: 5rem ;
         opacity: 0 ;
         transition: all .3s ;
+        box-shadow: .1rem .5rem 1.5rem rgba($color-black , .1) ;
 
-        
-        @include respond(tab-land) {
-            width: 70% ;
-            height: auto ; 
-            padding: 5rem 2rem  ;
-        }
+             
         @include respond(phone) {
             width: 90% ;
             height: auto ;
             padding: 5rem 2rem  ;
+        }
+        
+
+        @include respond(tab-land) {
+            width: 75% ;
+            height: auto ;   
         }
 
 
