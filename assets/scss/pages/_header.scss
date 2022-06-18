@@ -1,0 +1,42 @@
+
+
+
+.header {
+    width: 100% ;
+
+
+    &__top {
+        padding: 8rem 0 ;
+        width: 100% ;
+        background-color: $color-white ;
+        text-align: center ;
+
+    }
+
+    &__bottom {
+        width: 100% ;
+        height: auto ;
+        position: relative ;
+    }
+
+    &__photo {
+        width: 100% ;
+        display: block ;
+    }
+
+    &__text-box {
+        position: absolute ;
+        top: 50% ;
+        transform: translateY(-50%);
+        left: 5rem ;
+
+        @include respond(phone) {
+            left: 2rem ;
+        }
+
+    }
+
+}
+
+
+
