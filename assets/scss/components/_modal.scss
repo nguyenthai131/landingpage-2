@@ -12,12 +12,13 @@
 
 
     &__box {
+        display: block ;
         position: absolute ;
         top: 0% ;
         left: 50% ;
         transform: translateX(-50%);
         width: 45% ;
-        height: 30rem ;
+        height: auto ;
         background-color: $color-white ;
         padding: 5rem ;
         opacity: 0 ;
@@ -27,7 +28,6 @@
              
         @include respond(phone) {
             width: 90% ;
-            height: auto ;
             padding: 5rem 2rem  ;
         }
         
