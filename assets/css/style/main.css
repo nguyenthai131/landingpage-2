@@ -621,7 +621,7 @@ body {
 @media (max-width: 770px) {
   .modal__box {
     width: 70%;
-    height: 35rem;
+    height: auto;
   }
 }
 @media (max-width: 480px) {
